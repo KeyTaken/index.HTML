@@ -1,0 +1,21 @@
+body {
+  background-color: #f8f9fa;
+}
+
+/* Effet au survol des cartes projets */
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+/* Formulaire plus esthétique */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
